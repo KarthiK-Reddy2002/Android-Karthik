@@ -120,16 +120,16 @@ const App = () => {
     <SafeAreaView
       style={{
         flex: 1,
-        backgroundColor: 'white',
+        backgroundColor: '#ffefd5',
       }}>
       <View style={styles.header}>
         <Text
           style={{
             fontWeight: 'bold',
-            fontSize: 20,
-            color: COLORS.primary,
+            fontSize: 30,
+            color:'#000080',
           }}>
-          TODO APP
+          TODO
         </Text>
         <Icon name="delete" size={25} color="red" onPress={clearAllTodos} />
       </View>
